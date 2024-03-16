@@ -1,0 +1,93 @@
+/* Estilos para mover la imagen dentro del contenedor */
+.testo{
+    position: relative; /* Establece el contenedor como referencia para las posiciones absolutas de los hijos */
+    width: 2000px; /* Ancho del contenedor */
+    height: 300px; /* Altura del contenedor */
+}
+
+.testo img {
+    position: absolute; /* Permite mover la imagen dentro del contenedor */
+    /* Define las posiciones de la imagen dentro del contenedor */
+    top: 25px; /* Mover hacia abajo */
+    left: 50px; /* Mover hacia la derecha */
+    /* Puedes ajustar los valores de top y left según tu preferencia */
+}
+/* Estilo para el texto "About us" */
+.about-us {
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 45px; /* Mover hacia abajo */
+    left: 860px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 25px;
+    color: #1A2434;
+}
+.rectangulo {
+    position: absolute; /* Permite mover el rectángulo dentro del contenedor */
+    width: 90px; /* Ancho del rectángulo */
+    height: 7px; /* Altura del rectángulo */
+    background-color: #A4074D; /* Color del rectángulo */
+    /* Define las posiciones del rectángulo dentro del contenedor */
+    top: 60px; /* Mover hacia abajo */
+    left: 750px; /* Mover hacia la derecha */
+    border-radius: 6px;
+}
+/* Estilo para el texto adicional */
+.e-lerning{
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 90px; /* Mover hacia abajo */
+    left: 745px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 36px; /* Tamaño del texto */
+    color: #1A2434; /* Color del texto */
+}
+.otro-texto {
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 135px; /* Mover hacia abajo */
+    left: 745px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 36px; /* Tamaño del texto */
+    color: #1A2434; /* Color del texto */
+}
+.otro-mas {
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 200px; /* Mover hacia abajo */
+    left: 745px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 20px; /* Tamaño del texto */
+    color: #1A2434; /* Color del texto */
+}
+.texto-extra-1 {
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 230px; /* Mover hacia abajo */
+    left: 745px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 20px; /* Tamaño del texto */
+    color: #1A2434; /* Color del texto */
+}
+
+/* Estilos para el nuevo texto "Texto extra 2" */
+.texto-extra-2 {
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 260px; /* Mover hacia abajo */
+    left: 745px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 20px; /* Tamaño del texto */
+    color: #1A2434; /* Color del texto */
+}
+
+/* Estilos para el nuevo texto "Texto extra 3" */
+.texto-extra-3 {
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 290px; /* Mover hacia abajo */
+    left: 745px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 20px; /* Tamaño del texto */
+    color: #1A2434; /* Color del texto */
+}
+.cuadro {
+    position: absolute; /* Permite mover el cuadro dentro del contenedor */
+    top: 360px; /* Mover hacia abajo */
+    left: 740px; /* Ajusta la posición horizontal */
+    width: 250px; /* Ancho del cuadro */
+    height: 72px; /* Altura del cuadro */
+    background-color: #A4074D; /* Color del cuadro */
+    color: white; /* Color del texto dentro del cuadro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 16px; /* Borde redondeado */
+    font-size: 20px; /* Tamaño del texto dentro del cuadro */
+    line-height: 1.5; /* Espaciado entre líneas */
+    text-align: center; /* Alineación del texto */
+}

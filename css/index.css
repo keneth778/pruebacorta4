@@ -1,0 +1,133 @@
+/* Estilos para el contenedor del encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+/* Estilos para el logotipo */
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+/* Estilos para el contenedor de la navegación */
+nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para el cuadro de búsqueda */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box .search-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 30px; /* Agregar un margen a la derecha de la imagen */
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-box input[type="text"]::placeholder {
+    color: #aaa;
+}
+.master-container {
+    margin-top: 20px; /* Agrega un margen superior para mover todo el párrafo hacia abajo */
+}
+
+.master {
+    padding: 100px 60px;
+    display: inline-block;
+}
+
+.master2 {
+    font-size: 36px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+.subtext {
+    margin-top: 10px; /* Añade un margen superior para separar los textos */
+    font-size: 36px;
+}
+.additional-text {
+    font-size: 18px;
+    color: #888;
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+.additional-text2 {
+    font-size: 18px;
+    color: #888;
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+.custom-box {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.custom-box {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 60px; /* Ajusta la altura de línea para centrar verticalmente */
+    font-size: 20px; /* Tamaño de fuente más grande */
+}
+
+.purple-box {
+    background-color: #A4074D;
+    color: white;
+}
+
+.white-box {
+    background-color: #fff;
+    margin-left: 10px; /* Espacio entre los cuadros */
+    font-size: 20px; /* Tamaño de fuente más grande */
+}
+.additional-text3 {
+    position: absolute; /* Posición absoluta con respecto al contenedor */
+    top: 80%; /* Posiciona el texto al final del contenedor */
+    left: 7%; /* Centra horizontalmente el texto */
+    transform: translateX(-50%); /* Ajusta el texto para centrarlo completamente */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #1A2434;
+}
+.master-container {
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos alrededor */
+    align-items: center; /* Alinea verticalmente */
+}
+
+.master {
+    flex-grow: 1; /* Permitir que el contenedor del texto crezca */
+}
+
+.image-container {
+    position: absolute;
+    top: 150px; /* Ajusta la posición vertical de la imagen */
+    left: 700px; /* Ajusta la posición horizontal de la imagen */
+    width: 405px;
+    height: 666px;
+}
+

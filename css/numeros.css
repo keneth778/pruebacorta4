@@ -1,0 +1,113 @@
+.numeros {
+    position: absolute; /* Permite mover el contenedor */
+    bottom: 0; /* Sitúa el contenedor en la parte inferior */
+    left: 0; /* Sitúa el contenedor en la parte izquierda */
+    width: 100px; /* Ancho del contenedor */
+    height: 100px; /* Altura del contenedor */
+    background-color: transparent; /* Fondo transparente */
+}
+.numeros img {
+    width: 110px; /* Ancho de la imagen al 100% del contenedor */
+    height: auto; /* Altura automática de la imagen */
+    margin-left: 100px;
+    margin-top: 5px;
+}
+/*100k*/
+.numeros img:nth-child(2) {
+    margin-left: 350px; /* Espacio entre las imágenes */
+    margin-top: 5px; /* Ajusta la distancia vertical de la segunda imagen */
+    width: 150px; /* Ajusta el ancho de la segunda imagen */
+}
+/*years of experience*/
+.numeros img:nth-child(3) {
+    margin-top: 80px; /* Ajusta el espacio entre las imágenes */
+    width: 160px; /* Ajusta el ancho de la tercera imagen */
+    margin-left: 70px;
+}
+/*45k*/
+.numeros img:nth-child(4) {
+    margin-top: -5px; /* Ajusta el espacio entre las imágenes */
+    width: 130px; /* Ajusta el ancho de la tercera imagen */
+    margin-left: 700px; /* Mueve la tercera imagen hacia la derecha */
+}
+/*98k*/
+.numeros img:nth-child(5){
+    margin-top: -5px; /* Ajusta el espacio entre las imágenes */
+    width: 150px; /* Ajusta el ancho de la tercera imagen */
+    margin-left: 1000px; /
+}
+/*studets*/
+.numeros img:nth-child(6){
+    margin-top: 80px; /* Ajusta el espacio entre las imágenes */
+    width: 160px; /* Ajusta el ancho de la tercera imagen */
+    margin-left:340px
+}
+/*subjects*/
+.numeros img:nth-child(7){
+    margin-top: 75px; /* Ajusta el espacio entre las imágenes */
+    width: 140px; /* Ajusta el ancho de la tercera imagen */
+    margin-left:680px;
+}
+.numeros img:nth-child(8){
+    margin-top: 75px; /* Ajusta el espacio entre las imágenes */
+    width: 170px; /* Ajusta el ancho de la tercera imagen */
+    margin-left:1000px;
+}
+/*best*/
+.best {
+    position: relative;
+}
+.best img {
+    position: absolute;
+    top: 250px; /* Ajusta la posición vertical de la imagen */
+    left: 435px; /* Ajusta la posición horizontal de la imagen */
+    width: 300px; /* Ajusta el ancho de la imagen */
+}
+.best img:nth-child(2){
+    position: absolute;
+    top: 400px; /* Ajusta la posición vertical de la imagen */
+    left: -30px; /* Ajusta la posición horizontal de la imagen */
+    width: 750px; 
+}
+.best img:nth-child(3){
+    position: absolute;
+    top: 500px; /* Ajusta la posición vertical de la imagen */
+    left: 140px; /* Ajusta la posición horizontal de la imagen */
+    width: 1000px; 
+}
+.best img:nth-child(4){
+    position: absolute;
+    top: 1060px; /* Ajusta la posición vertical de la imagen */
+    left: -90px; /* Ajusta la posición horizontal de la imagen */
+    width: 250px; 
+}
+/*testimonio*/
+.test img{
+    position: absolute;
+    top: 1200px; /* Ajusta la posición vertical de la imagen */
+    left: -115px; /* Ajusta la posición horizontal de la imagen */
+    width: 1500px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+/*blog*/
+.blog img{
+    position: absolute;
+    top: 1800px; /* Ajusta la posición vertical de la imagen */
+    left: -115px; /* Ajusta la posición horizontal de la imagen */
+    width: 1500px; /* Ajusta el ancho de la imagen */
+    height: auto;
+}
+.correo img{
+    position: absolute;
+    top: 2600px; /* Ajusta la posición vertical de la imagen */
+    left: -100px; /* Ajusta la posición horizontal de la imagen */
+    width: 1400px; /* Ajusta el ancho de la imagen */
+    height: auto;
+}
+.info img{
+    position: absolute;
+    top: 2841px; /* Ajusta la posición vertical de la imagen */
+    left: -100px; /* Ajusta la posición horizontal de la imagen */
+    width: 1400px; /* Ajusta el ancho de la imagen */
+    height: auto;
+}

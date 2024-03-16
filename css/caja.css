@@ -1,0 +1,163 @@
+
+.footer-text {
+    position: relative;
+    left: 0px;
+    right: 500px;
+    bottom: 20px; /* Ajusta el espacio entre el texto y la parte inferior */
+    padding: 400px; /* Añade relleno para mayor legibilidad */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+    color: #1A2434;
+}
+
+.footer-text::before {
+    content: ""; /* Agrega contenido al pseudoelemento */
+    position: absolute; /* Establece la posición absoluta para el pseudoelemento */
+    left: 550px; /* Ajusta la posición a la izquierda del contenedor */
+    top: 411px; /* Centra verticalmente el cuadro */
+    transform: translateY(-50%); /* Ajusta la posición vertical del cuadro */
+    width: 50px; /* Ajusta el ancho del cuadro */
+    height: 4px; /* Ajusta la altura del cuadro */
+    background-color: #A4074D; /* Color de fondo del cuadro */
+    border-radius: 8px;
+}
+.person-img {
+    position: relative; /* Hace que el elemento sea posicionado relativo a su posición original */
+    top: -350px; /* Ajusta la posición hacia arriba */
+    margin-left: 100px; /* Ajusta el margen izquierdo para mover la imagen hacia la derecha */
+    margin-right: 40px; /* Ajusta el margen derecho para mover la imagen hacia la izquierda */
+}
+.person-img p {
+    font-size: 29px; /* Tamaño de fuente más grande */
+    color: #1A2434;
+    margin-right: 500px; /* Ajusta el margen izquierdo para mover el texto hacia la izquierda */
+}
+.person-img p.additional-text {
+    font-size: 20px; /* Tamaño de fuente diferente */
+    color: #1A2434; /* Color de texto */
+    /* Otros estilos si es necesario */
+}
+.person-img p:last-child {
+    margin-top: 20px; /* Ajusta el margen superior para separar el último párrafo */
+}
+.person-img img {
+    display: inline-block; /* Alinea las imágenes en línea */
+    vertical-align: middle; /* Alinea verticalmente las imágenes */
+    margin-right: 300px; /* Ajusta el margen derecho entre las imágenes si es necesario */
+    padding-top: 2px;
+}
+/*monitor*/
+.monitor img {
+    margin-top: -450px; /* Mueve la imagen hacia abajo */
+    margin-left: 400px; /* Mueve la imagen hacia la derecha */
+}
+
+.monitor p.text1 {
+    margin-top: -180px;
+    margin-left: 350px;
+    font-size: 29px; /* Cambia el tamaño del texto */
+    color: #1E2B33; /* Cambia el color del texto */
+}
+
+.monitor p.text2 {
+    margin-top: 10px;
+    margin-left: 350px;
+    font-size: 20px; /* Cambia el tamaño del texto */
+    color: #1E2B33; /* Cambia el color del texto */
+}
+
+.monitor p.text3 {
+    margin-top: 11px;
+    margin-left: 350px;
+    font-size: 20px; /* Cambia el tamaño del texto */
+    color: #1E2B33; /* Cambia el color del texto */
+}
+
+.monitor p.text4 {
+    margin-top: 10px;
+    margin-left: 350px;
+    font-size: 20px; /* Cambia el tamaño del texto */
+    color: #1E2B33; /* Cambia el color del texto */
+}
+.monitor p.text5{
+    margin-top: 10px;
+    margin-left: 350px;
+}
+/*candado*/
+.candado{
+    margin-top: -260px;
+    margin-left: 750px;
+}
+.candado p {
+    font-size: 20px; /* Tamaño de fuente para todos los párrafos */
+}
+
+.candado .lifetime-access {
+    color: #1A2434; /* Color de texto para el primer párrafo */
+    font-size: 29px; /* Tamaño de fuente para el primer párrafo */
+    margin-bottom: 20px; /* Ajusta la distancia entre el primer párrafo y la imagen */
+}
+
+.candado .empower-yourself {
+    color: #1A2434; /* Color de texto para el segundo párrafo */
+    margin-bottom: 10px;
+}
+
+.candado .knowledge-skills {
+    color: #1A2434; /* Color de texto para el tercer párrafo */
+}
+
+.candado .gained {
+    color: #1A2434; /* Color de texto para el cuarto párrafo */
+}
+.candado .lea{
+    font-size: 30px;
+}
+/*certificado*/
+.certificado {
+    position: relative; /* Asegura que la posición relativa sea el punto de referencia para la imagen */
+}
+
+.certificado img {
+    position: absolute; /* Posiciona la imagen de manera absoluta */
+    top: -610px; /* Mueve la imagen hacia arriba */
+    margin-left: 1200px;
+}
+.certificado p{
+    position: absolute; /* Posiciona la imagen de manera absoluta */
+    top: -530px; /* Mueve la imagen hacia arriba */
+    margin-left: 1200px;
+    font-size: 29px;
+    color: #1A2434;
+}
+.certificado p:nth-of-type(2) {
+    position: relative; /* Hace que el posicionamiento sea relativo */
+    top: -500px; /* Mueve el texto hacia arriba */
+    font-size: 20px;
+    color: #1A2434;
+}
+.certificado p:nth-of-type(3) {
+    position: relative; /* Hace que el posicionamiento sea relativo */
+    top: -470px; /* Mueve el texto hacia arriba */
+    color: #1A2434;
+}
+/*numeros*/
+.numeros {
+    position: absolute; /* Permite mover el contenedor */
+    /* Ajusta las coordenadas para posicionar la imagen donde desees */
+    top: 500px; 
+    left: 200px; 
+    width: 1000px; /* Ancho del contenedor */
+    height: 2000px; /* Altura del contenedor */
+}
+
+.numeros img {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: auto; /* Altura automática de la imagen */
+}
+
+
+
+
+
+
